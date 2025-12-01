@@ -1,0 +1,26 @@
+{
+  "name": "student-attendance-manager",
+  "version": "1.0.0",
+  "description": "Full-stack Student Attendance Management System",
+  "main": "index.js",
+  "scripts": {
+    "install-all": "npm install --prefix backend && npm install --prefix frontend",
+    "backend": "npm start --prefix backend",
+    "frontend": "npm start --prefix frontend",
+    "dev-backend": "npm run dev --prefix backend",
+    "build-frontend": "npm run build --prefix frontend"
+  },
+  "keywords": [
+    "attendance",
+    "student",
+    "management",
+    "react",
+    "nodejs",
+    "mongodb"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "all": "^0.0.0"
+  }
+}
